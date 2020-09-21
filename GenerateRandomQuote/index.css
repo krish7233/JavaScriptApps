@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  margin-left: 40%;
+  margin-top: 15%;
+  padding: 10px;
+}
+.btn {
+  margin-top: 2%;
+  padding: 10px;
+  font-size: 30px;
+  background-color: pink;
+  color: white;
+  border: none;
+  outline: none;
+  position: fixed;
+}
+.quoteText {
+  width: 40%;
+  margin-top: 10%;
+}
+.quote p {
+  font-size: 40px;
+}
