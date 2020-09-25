@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App | Test Your Knowledge</title>
+    <!--css-->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="fix"></div>
+      <div class="heading">
+        <h1>Take Quiz <span>{ Test YourSelf }</span></h1>
+      </div>
+      <div class="quiz-type">
+        <select id="types">
+          <option value="select">--Select--</option>
+          <option value="javascript">JavaScript</option>
+          <option value="java">Java</option>
+        </select>
+      </div>
+      <!--start of quiz container-->
+      <div class="quiz-container">
+        <!--start of main quiz div-->
+        <div class="quiz-main">
+          <div class="main">
+            <div class="question">
+              <h4>
+                <span class="question-number">1. </span
+                ><span class="question-text"
+                  >Which option is correct regarding var keyword?</span
+                >
+              </h4>
+            </div>
+            <!--timer div-->
+            <div class="timer">
+              <h2>00:00:00</h2>
+            </div>
+          </div>
+
+          <!--end of question-->
+          <div class="answer-options">
+            <form id="form">
+              <input type="radio" id="0" name="options" />
+              <label for="0">var is not function scoped</label><br />
+              <input type="radio" id="1" name="options" />
+              <label for="1">var is block scoped</label><br />
+              <input type="radio" id="2" name="options" />
+              <label for="2">var is both function and global scoped </label
+              ><br />
+              <input type="radio" id="3" name="options" />
+              <label for="3">None</label>
+            </form>
+          </div>
+          <!--end of answer-options-->
+
+          <!--end of main quiz div-->
+        </div>
+        <div class="quiz-btns">
+          <button class="btn btn-end">End Quiz</button>
+          <button class="btn btn-next">Next</button>
+        </div>
+      </div>
+      <!--end of quiz container-->
+      <div class="quiz-result">
+        <div class="total">
+          <h3>Total Questions -> <span>10</span></h3>
+        </div>
+        <div class="attempted">
+          <h3>Attempted -> <span>5</span></h3>
+        </div>
+        <div class="unattempted">
+          <h3>Unattempted -> <span>5</span></h3>
+        </div>
+        <div class="correct">
+          <h3>Correct -> <span>4</span></h3>
+        </div>
+        <div class="incorrect">
+          <h3>Incorrect -> <span>2</span></h3>
+        </div>
+
+        <div class="btn btn-start-again">
+          <button>Start Again?</button>
+        </div>
+      </div>
+      <!--end of quiz result-->
+    </div>
+
+    <!--end of container-->
+    <!--script-->
+    <script src="app.js"></script>
+  </body>
+</html>

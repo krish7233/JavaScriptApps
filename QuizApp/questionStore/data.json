@@ -1,0 +1,50 @@
+{
+  "javascript": {
+    "questions": [
+      {
+        "question": "What is the return type of the method parseInt()?",
+        "options": ["String", "Float", "Integer", "Date"],
+        "answer": "Integer"
+      },
+      {
+        "question": "What are the parameters of the method JSON.parse()?",
+        "options": ["text", "reviver", "both text and reviver", "object"],
+        "answer": "both text and reviver"
+      },
+      {
+        "question": "What is the purpose of the method JSON.parse()?",
+        "options": [
+          " Parses a string to integer",
+          "Parses a string to JSON",
+          "Parses a string from JSON to JSON2",
+          "Parses integer to string"
+        ],
+        "answer": "Parses a string to JSON"
+      }
+    ]
+  },
+  "java": {
+    "questions": [
+      {
+        "question": "Which of the following option leads to the portability and security of Java?",
+        "options": [
+          "Bytecode is executed by JVM",
+          "The applet makes the Java code secure and portable",
+          "Use of exception handling",
+          "Dynamic binding between objects"
+        ],
+        "answer": "Bytecode is executed by JVM"
+      },
+      {
+        "question": "Which of the following is not a Java features?",
+        "options": [
+          "Dynamic",
+          "Architecture Neutral",
+          "Use of pointers",
+          "Object-oriented"
+        ],
+        "answer": "Use of pointers"
+      }
+    ]
+  }
+}
