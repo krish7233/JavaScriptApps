@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-App</title>
+    <!--css-->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading"><h1>List Your Todos</h1></div>
+
+      <div class="err"></div>
+
+      <!--form div-->
+      <div class="input-form">
+        <form id="form">
+          <input
+            class="input"
+            type="text"
+            placeholder="Enter your todo here..."
+          />
+          <button class="btn btn-add">Add</button>
+        </form>
+      </div>
+      <!--end of form div-->
+      <!--todos-->
+      <div class="todos">
+        <!--single todo-->
+        <!-- <div class="todo">
+          <div class="todo-text">
+            <h4>buy milk</h4>
+          </div>
+          <div class="todo-btns">
+            <ul>
+              <li>
+         <img src="./icons/check.svg" alt="check-image" />
+              </li>
+              <li>
+                <img src="./icons/update.svg" alt="update-image" />
+              </li>
+              <li>
+                <img src="./icons/cross.svg" alt="cross-image" />
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        <!--end of single todo-->
+      </div>
+      <!--end of todos-->
+      <div class="btn-div">
+        <button class="btn btn-clear">Clear</button>
+      </div>
+    </div>
+    <!--end of container-->
+
+    <!--script-->
+    <script src="app.js"></script>
+  </body>
+</html>

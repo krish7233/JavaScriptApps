@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border: #cccccc solid 1px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #efefef;
+}
+
+.heading {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.heading h1 {
+  font-size: 50px;
+}
+
+.input-form input {
+  width: 40%;
+  height: 40px;
+  padding: 5px;
+}
+
+.input-form button {
+  width: 8%;
+  height: 52px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.todos {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.todo ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.todo {
+  width: 60%;
+  margin: auto;
+  background: #cccccc;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+}
+.todo-text {
+  width: 85%;
+  padding-top: 5px;
+}
+.todo-btns {
+  width: 10%;
+}
+
+.todo-btns ul li:hover {
+  cursor: pointer;
+}
+
+/*clear button*/
+.btn-div button {
+  width: 10%;
+  height: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+/*error*/
+.err {
+  border: solid pink;
+  width: 40%;
+  margin: auto;
+  font-size: 25px;
+  color: red;
+  background: #ffc3c3;
+  margin-bottom: 10px;
+  display: none;
+}

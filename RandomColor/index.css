@@ -1,0 +1,13 @@
+body {
+  margin-block: 0;
+}
+
+.container {
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.btn {
+  padding: 7px;
+  font-size: 30px;
+}
